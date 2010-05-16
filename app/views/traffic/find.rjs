@@ -1,0 +1,10 @@
+unless @message
+  page << @map.clear_overlays
+  @traffic_markers.each { |marker| page << @map.add_overlay(marker)}
+  page << @map.set_center(@center,12)
+  page.visual_effect :fade, "notice", :duration => 0.5
+else
+  page.replace_html "notice", @message
+  page.hide "notice"
+  page.visual_effect :appear, "notice", :duration => 0.5
+end

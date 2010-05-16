@@ -1,0 +1,11 @@
+<% form_remote_tag(:url => {:action => :find}) do %>
+	<div id="form" >
+		<label for="zip">Zip:</label>
+		
+		<%= text_field_tag "zip" %>
+		<%= submit_tag "Find" %>
+	</div>
+<% end %>
+
+<%= @map.div %>
+<div id="notice" style="display:none;"></div>

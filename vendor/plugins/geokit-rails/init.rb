@@ -1,0 +1,2 @@
+require 'geokit-rails'
+

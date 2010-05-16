@@ -1,0 +1,37 @@
+body {
+	background-color: #888;
+	margin: 25px;
+}
+
+#main {
+	margin: 0;
+	margin-bottom:10px;
+  	background-color:#eee;
+	border: 5px solid #333;
+	padding: 25px;
+}
+
+#form {
+	border: none;
+	text-align: center;
+	padding-bottom:25px;
+}
+
+#map_div{
+	width:800px;
+        height:400px;
+}
+#map_div_small
+{
+	height:200px;
+	width:200px;
+}
+#notice{
+	color: red;
+	padding-top:25px;
+	text-align: center;
+}
+
+img {
+	border: none;
+}

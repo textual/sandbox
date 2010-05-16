@@ -1,0 +1,6 @@
+adapter: mysql
+database: test_v1_development
+username: root
+password: g0mysql
+host: localhost
+
